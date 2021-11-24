@@ -1,0 +1,100 @@
+body{
+  font-family: 'Poppins';
+}
+
+.navbar-custom{
+  margin: 0 30px;
+}
+
+.navbar-bg-custom{
+  background-color: rgba(246, 237, 229, .75);
+}
+
+.nav-item{
+  color: #2D3436;
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  font-style: normal;
+}
+/* end navbar */
+
+.jumbotron-custom{
+  height: 580px;
+  width: 100%;
+  background-image: url('../assets/images/landing-jumbotron.svg');
+  background-size: cover;
+  padding: 100px;
+  background-attachment: fixed;
+}
+
+.title-jumbotron{
+  font-size: 40px;
+  font-weight: 800;
+  width: 500px;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 60px;
+}
+
+.btn-jumbotron{
+  width: 150px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+  padding: 10px 0;
+  font-weight: 700;
+}
+/* end jumbotron */
+
+.section-about{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F6EDE5;
+  padding: 0 100px;
+}
+
+.section-about .image-about{
+  background-image: url('../assets/images/elipse-about.svg');
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+}
+
+.section-about .content-text{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-about .content-text .about-text{
+  width: 650px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.section-about .content-text .about-text .title{
+  display: flex;
+  color: #203049;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: -25px;
+}
+
+.section-about .content-text .about-text .title span{
+  margin-top: 10px;
+}
+
+.section-about .content-text .about-text .title .elipse-title{
+  width: 40px;
+  height: 40px;
+  background-color: #BFE3F8;
+  border-radius: 50%;
+  margin-right: -22px;
+}
+/* end section about */
