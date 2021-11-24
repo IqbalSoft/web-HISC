@@ -1,5 +1,6 @@
 body{
   font-family: 'Poppins';
+  background-color: #F6EDE5;
 }
 
 .navbar-custom{
@@ -53,7 +54,6 @@ body{
 .section-about{
   display: flex;
   justify-content: space-between;
-  background-color: #F6EDE5;
   padding: 0 100px;
 }
 
@@ -100,8 +100,7 @@ body{
 /* end section about */
 
 .section-events{
-  background-color: #F6EDE5;
-  height: 850px;
+  height: 900px;
   background-image: url('../assets/images/elipse-left.svg'), url('../assets/images/elipse-right.svg');
   background-position: left top, right bottom;
   background-repeat: no-repeat;
@@ -181,4 +180,15 @@ body{
 .events-card .card-event-content .description{
   color: #BCC1C7;
   font-weight: 400;
+}
+/* end section events */
+
+.footer{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #2030494D;
+  margin: 0 100px;
 }
