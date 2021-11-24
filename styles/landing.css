@@ -98,3 +98,87 @@ body{
   margin-right: -22px;
 }
 /* end section about */
+
+.section-events{
+  background-color: #F6EDE5;
+  height: 850px;
+  background-image: url('../assets/images/elipse-left.svg'), url('../assets/images/elipse-right.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+.section-events .button-find-more{
+  margin: 0 auto;
+  width: 230px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  color: #203049;
+  border-radius: 30px;
+  filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+  font-weight: 600;
+}
+.section-events .button-find-more:hover{
+  cursor: pointer;
+  background-color: rgb(172, 170, 170);
+}
+
+.section-events .title{
+  padding-top: 68px;
+  text-align: center;
+  color: #203049;
+}
+
+.section-events .title .title-base{
+  font-size: 34px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.events-card{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.events-card .swipe-left, .events-card .swipe-right{
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.events-card .swipe-left:hover, .events-card .swipe-right:hover{
+  cursor: pointer;
+  background-color: rgb(172, 170, 170);
+}
+
+.events-card .card-event-content{
+  background-color: #203049;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.events-card .card-event-content .illustration{
+  background-image: url('../assets/images/shape-card-events.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100px;
+  display: flex;
+}
+
+.events-card .card-event-content .title-event{
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.events-card .card-event-content .publish{
+  color: white;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.events-card .card-event-content .description{
+  color: #BCC1C7;
+  font-weight: 400;
+}
