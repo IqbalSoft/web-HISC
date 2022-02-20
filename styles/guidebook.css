@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgba(246, 237, 229, .75);
+}
+
+.navbar-custom{
+    margin: 0 30px;
+}
+
+.navbar-bg-custom{
+    background-color: rgba(246, 237, 229, .75);
+}
+
+.nav-item{
+    color: #2D3436;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+}
+/* end navbar */
+
+.title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #203049;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.label-book{
+    font-size: 30px;
+    color: #7B7B7B;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.button-download{
+    border-radius: 30px;
+    background-color: #BFE3F8;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 900;
+    color: #203049;
+    text-align: center;
+    padding: 17px 41px;
+    width: 211px;
+    margin: 38px auto;
+    margin-bottom: 200px !important;
+}
+
+.button-download:hover{
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2030494D;
+    margin: 0 100px;
+}
+
+.coming-soon{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #203049;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+    margin: 100px 0;
+}
