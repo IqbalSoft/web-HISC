@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgba(246, 237, 229, .75);
+    background-image: url('../assets/images/elipse-right.svg');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.navbar-custom{
+    margin: 0 30px;
+}
+
+.navbar-bg-custom{
+    background-color: rgba(246, 237, 229, .75);
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.nav-item{
+    color: #2D3436;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+}
+/* end navbar */
+
+.wrap-section{
+    margin: 0 100px;
+}
+
+.jumbotron-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.jumbotron-section .text{
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 76px;
+}
+
+.jumbotron-section .text span{
+    color: #78C7F5;
+}
+
+.jumbotron-section .image{
+    background-image: url('../assets/images/organization-meet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 319px;
+}
+
+.box-person-president{
+    text-align: center;
+}
+
+.box-person-president .image-person {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.box-person-president .name{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.person-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.box-person{
+    text-align: center;
+    margin: 30px 40px;
+}
+
+.box-person .image-person {
+    background-color: #b9b9b9;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.box-person .name{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.footer .text-footer{
+    font-weight: 400;
+    font-size: 16px;
+    border-top: 1px solid rgba(32, 48, 73, 0.3);
+    width: 100%;
+    text-align: center;
+    margin: 0 100px;
+    padding-top: 20px;
+}
