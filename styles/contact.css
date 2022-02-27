@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgba(246, 237, 229, .75);
+    background-image: url('../assets/images/elipse-right.svg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.navbar-custom{
+    margin: 0 30px;
+}
+
+.navbar-bg-custom{
+    background-color: rgba(246, 237, 229, .75);
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.nav-item{
+    color: #2D3436;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+}
+/* end navbar */
+
+.wrap-section{
+    margin: 0 100px;
+}
+
+.card-box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 10px 28px rgba(75, 0, 129, 0.12);
+    padding: 40px;
+    margin: 100px 0;
+}
+
+.title-box{
+    text-align: center;
+}
+
+.title-box .text{
+    color: #203049;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title-box  .divider{
+    margin: 10px auto;
+    width: 160px;
+    height: 2px;
+    background-color: #203049;
+    border-radius: 2px;
+}
+
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.content-box .form{
+    width: 50%;
+}
+
+.form .title{
+    color: #0F001A;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form input{
+    margin-bottom: 25px;
+}
+
+.form button{
+    background-color: #4A99D3;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: 0;
+    outline: unset;
+    margin-top: 25px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.content-box .social-media{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vector{
+    width: 258px;
+    height: 253px;
+    background-image: url('../assets/images/vector-contact.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.first-social-media, .second-social-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socmed-icon{
+    width: 57px;
+    height: 57px;
+    margin: 15px 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.footer .text-footer{
+    font-weight: 400;
+    font-size: 16px;
+    border-top: 1px solid rgba(32, 48, 73, 0.3);
+    width: 100%;
+    text-align: center;
+    margin: 0 100px;
+    padding-top: 20px;
+}
