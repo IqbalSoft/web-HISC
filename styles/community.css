@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgba(246, 237, 229, .75);
+}
+
+.navbar-custom{
+    margin: 0 30px;
+}
+
+.navbar-bg-custom{
+    background-color: rgba(246, 237, 229, .75);
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.nav-item{
+    color: #2D3436;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+}
+/* end navbar */
+
+.jumbotron-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.jumbotron-section .illustration{
+    width: 648px;
+    height: 500px;
+    background-image: url('../assets/images/illustration-comunity.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-section .title-section{
+    color: #203049;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: -30px;
+}
+
+.jumbotron-section .title-section .box-title{
+    width: 371px;
+    height: 28px;
+    background-color: #BFE3F8;
+    border-radius: 30px;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+
+.sanggar-wayang-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sanggar-wayang-section .about-text{
+    width: 50%;
+    font-size: 20px;
+    color: #7B7B7B;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.sanggar-wayang-section .about-text .title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #203049;
+}
+
+.sanggar-wayang-section .about-text .btn-contact{
+    width: 180px;
+    background-color: #BFE3F8;
+    padding: 8px 10px;
+    color: #5C5C5C;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sanggar-wayang-section .image-section{
+    width: 300px;
+    height: 528px;
+    background-color: #BFE3F8;
+}
+
+.sanggar-wayang-section .image-box{
+    width: 425px;
+    height: 425px;
+    background-image: url('../assets/images/illustration-circle-image.svg'), url('../assets/images/icons/youtube.svg');
+    background-size: contain, 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -211px;
+    margin-top: 40px;
+}
+
+.footer{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2030494D;
+    margin: 0 100px;
+}
