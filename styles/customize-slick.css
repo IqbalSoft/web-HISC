@@ -1,0 +1,25 @@
+.slick-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 40px;
+    color: #373737 !important;
+    z-index: 100px;
+    border: 1px solid #373737;
+    border-radius: 50%;
+    padding: 0px 10px;
+    padding-right: 14px;
+    padding-bottom: 2px;
+}
+
+.slick-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 40px;
+    color: #373737 !important;
+    z-index: 100px;
+    border: 1px solid #373737;
+    border-radius: 50%;
+    padding: 0px 10px;
+    padding-left: 14px;
+    padding-bottom: 2px;
+}

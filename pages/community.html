@@ -8,10 +8,15 @@
 
   <title>Hangzhou Indonesian Student Community (HISC)</title>
 
-  <link href="../assets/bootstrap/boostrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+  <link rel="stylesheet" href="../assets/bootstrap/boostrap.min.css">
   <link rel="stylesheet" href="../styles/fonts.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link rel="stylesheet" href="../styles/community.css">
+  <link rel="stylesheet" href="../styles/customize-slick.css">
 </head>
 
 <body>
@@ -82,6 +87,53 @@
       </div>
     </div>
 
+    <div class="gallery">
+      <div class="doing-box">
+        <div class="divider"></div>
+        <div class="text">What are we doing</div>
+        <div class="divider"></div>
+      </div>
+
+      <div class="title">Sanggar Wayang’s Gallery</div>
+
+      <div class="list-photos">
+        <img src="../assets/images/sanggar/1.png" alt="sanggar 1" class="item">
+        <img src="../assets/images/sanggar/2.png" alt="sanggar 2" class="item">
+        <img src="../assets/images/sanggar/3.png" alt="sanggar 3" class="item">
+        <div class="item" style="background-color: #e2e2e2;"></div>
+      </div>
+    </div>
+
+    <div class="sport-section">
+      <div class="image-section">
+        <div class="image-box"></div>
+      </div>
+      <div class="about-text">
+        <div class="title">Sports Community</div>
+        <br>
+        <div>Exercising is one of the most important activities that are affecting our daily life . Exercising together with your friends could also be a pleasant distraction amidst our work life. For Indonesian students out there that are studying in Hangzhou and looking for friends to exercise together, HISC has the right sports community for you. Having 6 sports communities , which includes basketball, soccer, badminton, chess, billiard, and e-Sports, we also aim to strengthen the bonds among HISC members. Come and join the fun with us!</div>
+        <br>
+        <a href="" class="btn-contact">Contact Person</a>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="doing-box">
+        <div class="divider"></div>
+        <div class="text">What are we doing</div>
+        <div class="divider"></div>
+      </div>
+
+      <div class="title">Sports Community’s Gallery</div>
+
+      <div class="list-photos">
+        <img src="../assets/images/sports/1.png" alt="sports 1" class="item">
+        <img src="../assets/images/sports/2.png" alt="sports 2" class="item">
+        <img src="../assets/images/sports/3.png" alt="sports 3" class="item">
+        <div class="item" style="background-color: #e2e2e2;"></div>
+      </div>
+    </div>
+
     <div class="footer">
       <div class="text-footer">
         &copy; 2021 by PPIT Hangzhou | All Rights Reserved
@@ -89,7 +141,21 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
   <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.list-photos').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        speed: 300,
+      });
+    });
+  </script>
 </body>
 
 </html>

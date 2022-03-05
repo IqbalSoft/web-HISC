@@ -66,6 +66,7 @@ body{
     color: #7B7B7B;
     text-align: left;
     margin-left: 100px;
+    line-height: 31px;
 }
 
 .sanggar-wayang-section .about-text .title{
@@ -94,12 +95,105 @@ body{
 .sanggar-wayang-section .image-box{
     width: 425px;
     height: 425px;
-    background-image: url('../assets/images/illustration-circle-image.svg'), url('../assets/images/icons/youtube.svg');
+    background-image: url('../assets/images/illustration-circle-image.svg'), url('../assets/images/sanggar-wayang-community.png');
     background-size: contain, 95%;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: -211px;
     margin-top: 40px;
+}
+
+.sport-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sport-section .about-text{
+    width: 50%;
+    font-size: 20px;
+    color: #7B7B7B;
+    text-align: right;
+    margin-right: 100px;
+    line-height: 31px;
+}
+
+.sport-section .about-text .title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #203049;
+}
+
+.sport-section .about-text .btn-contact{
+    width: 180px;
+    background-color: #BFE3F8;
+    padding: 8px 10px;
+    color: #5C5C5C;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sport-section .image-section{
+    width: 300px;
+    height: 528px;
+    background-color: #BFE3F8;
+}
+
+.sport-section .image-box{
+    width: 425px;
+    height: 425px;
+    background-image: url('../assets/images/illustration-circle-image-left.svg'), url('../assets/images/sport-community.png');
+    background-size: contain, 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 87px;
+    margin-top: 40px;
+}
+
+.gallery{
+    margin: 100px;
+}
+
+.gallery .doing-box{
+    margin: 10px auto;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .doing-box .text {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-size: 400;
+    text-align: center;
+    margin: 0 4px;
+}
+
+.gallery .doing-box .divider {
+    width: 50px;
+    height: 1px;
+    background-color: #7B7B7B;
+}
+
+.gallery .title{
+    font-size: 39px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gallery .list-photos{
+    margin-top: 20px;
+}
+
+.gallery .list-photos .item{
+    display: flex;
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 .footer{
