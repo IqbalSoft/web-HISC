@@ -136,7 +136,7 @@ body{
 }
 
 .events-card{
-  margin: 20px;
+  margin: 20px 80px;
   display: flex;
   align-items: center;
 }
